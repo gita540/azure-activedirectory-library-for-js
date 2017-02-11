@@ -497,7 +497,7 @@ describe('AcquireTokenCtl', function () {
         store = {
             'adal.token.keys': adalServiceProvider.config.loginResource + '|',
             'adal.access.token.keyloginResource123': token,
-            'adal.expiration.keyloginResource123': 122
+            'adal.expiration.keyloginResource123': 304
         };
         scope.$on('adal:acquireTokenSuccess', function (event, message) {
             tokenOut = message;
